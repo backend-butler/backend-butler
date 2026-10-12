@@ -182,6 +182,7 @@ The standalone **includes** the Home Assistant connector, so the HA app is the s
 
 - Whether `ha-card` moves into the monorepo, with CI publishing to the card repo, if keeping it in sync becomes a chore.
 - Splitting `@backend-butler/*` packages out to npm, only if someone outside the org needs them.
+- Other models and providers. The agent loop runs on the Claude Agent SDK today, which is Claude-only. Supporting more providers needs a `Model` seam in `packages/core` (turns, tool calls, streaming, images) with the SDK as one implementation; the approval gate and connectors stay as they are. Public copy already says "AI agent", not "Claude agent".
 
 ## Action items
 
