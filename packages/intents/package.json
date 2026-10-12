@@ -1,0 +1,9 @@
+{
+  "name": "@backend-butler/intents",
+  "version": "1.0.0",
+  "description": "The Butler link protocol: ?butler=<kind>&text=<words>",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "exports": "./src/index.ts"
+}

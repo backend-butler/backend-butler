@@ -1,0 +1,9 @@
+{
+  "name": "@backend-butler/core",
+  "version": "0.0.0",
+  "description": "Agent loop, approval gate, chat store and the Connector/Host contracts",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "exports": "./src/index.ts"
+}

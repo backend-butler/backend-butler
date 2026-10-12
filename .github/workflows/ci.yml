@@ -1,0 +1,13 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  node:
+    uses: backend-butler/.github/.github/workflows/node-ci.yml@main
